@@ -18,7 +18,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   position: relative;
   display: flex;
   /* выше установили ограничения для секции */
@@ -63,25 +63,23 @@
 
 .header__main-illustration {
   display: flex;
-position: absolute;
-width: 765px;
-height: 608px;
-top: 0;
-right: 0;
-z-index: 3;
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   display: flex;
   position: absolute;
-  height: 568px;
   width: 568px;
-  background-color: #2f80ed;
-  margin-top: 64px;
-  top: 0;
+  height: 568px;
+  top: 64px;
   right: 0;
-
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
