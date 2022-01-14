@@ -9,12 +9,18 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.page div {
+  outline: 1px red dashed;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
   font-family: Helvetica Neue, Arial, sans-serif;
+  position: relative;
+  display: flex;
   /* выше установили ограничения для секции */
 }
 
@@ -26,27 +32,26 @@
 }
 
 .logo_place_header {
+  display: flex;
   margin-left: 64px;
   margin-top: 30px;
 }
 
 .header__title {
   display: flex;
-width: 730px;
-display: flex;
-align-items: center;
-margin-left: 64px;
-line-height: 96px;
-font-size: 102px;
-font-weight: bold;
+  align-items: center;
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
 }
 
 .header__subtitle {
-  display: flex;
   position: absolute;
   width: 388px;
-  margin-left: 64px;
-  margin-bottom: 30px;
+  left: 64px;
+  bottom:  30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -57,16 +62,26 @@ font-weight: bold;
 }
 
 .header__main-illustration {
+  display: flex;
 position: absolute;
 width: 765px;
 height: 608px;
+top: 0;
 right: 0;
-overflow: auto;
+z-index: 3;
 }
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  display: flex;
+  position: absolute;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  margin-top: 64px;
+  top: 0;
+  right: 0;
+
 }
 
 /* и элемента с модификатором вида ключ-значение */
