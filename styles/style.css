@@ -173,11 +173,14 @@ text-justify: auto;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   margin: 60px auto 100px auto;
 }
 
-.table_cell {
+.table__cell {
+  display: flex;
+  flex-direction: column;
   width: 250px;
   margin-bottom: 60px;
 }
