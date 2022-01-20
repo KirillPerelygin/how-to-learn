@@ -265,7 +265,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  color: white
+  color: white;
 }
 
 .table_theme_dark {
@@ -284,14 +284,14 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  color: white
+  color: white;
 }
 
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: white
+  color: white;
 }
 
 .kaufman__triangle {
