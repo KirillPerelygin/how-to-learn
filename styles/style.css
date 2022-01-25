@@ -167,7 +167,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin: 60px auto 0 auto;
+  margin: 0;
 
 }
 
@@ -175,7 +175,7 @@
   display: flex;
   flex-direction: column;
   width: 250px;
-  margin-bottom: 60px;
+  margin-top: 60px;
   list-style-type: none;
 }
 
@@ -183,19 +183,18 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   position: relative;
   background: #f2f2f2;
   background-image: url(../images/feynman.png);
@@ -261,6 +260,7 @@
   font-size: 60px;
   font-weight: bold;
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -268,6 +268,7 @@
   font-size: 24px;
   font-weight: normal;
   color: white;
+  z-index: 1;
 }
 
 .table_theme_dark {
@@ -297,12 +298,15 @@
 }
 
 .kaufman__triangle {
-  background-image: url(./images/kaufman-triangle.svg);
-  background-position: left bottom;
-  background-size: 877px 877px;
-  display: flex;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  position: absolute;
+  width: 877px;
+  height: 877px;
   right: -210px;
-  bottom: 0;
+  top: 0;
   z-index: 0;
 }
 
@@ -328,7 +332,6 @@
   flex-basis: 711px;
   justify-content: space-between;
   flex-direction: column;
-  position: relative;
 }
 
 .logo_place_footer {
@@ -341,9 +344,8 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  position: absolute;
   margin: 0 0 0 0;
-  bottom: 18px;
+  padding-bottom: 18px;
   left: 0;
 }
 
@@ -371,16 +373,11 @@
 }
 
 .footer__social-icon {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-}
-
-.footer__social-icon img {
   padding-right: 10px;
 }
 
 .footer__column-link {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
