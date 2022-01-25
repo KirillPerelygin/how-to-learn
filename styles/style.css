@@ -132,6 +132,10 @@
   margin: 0;
 }
 
+.two-columns__paragraph:last-of-type {
+  padding-bottom: 0px;
+}
+
 .digits {
   background: white;
   display: flex;
@@ -191,6 +195,7 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .feynman {
