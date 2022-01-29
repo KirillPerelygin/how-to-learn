@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 920px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.cards::after {
+  content: '';
+  width: 240px;
+}
