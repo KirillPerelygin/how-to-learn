@@ -6,3 +6,5 @@
 * Flexbox-верстка,
 * Распределение стилей с использованием БЭМ,
 * Keyframe-анимация отдельных элементов сайта.
+## Ссылка на проект
+[https://github.com/KirillPerelygin/how-to-learn]
