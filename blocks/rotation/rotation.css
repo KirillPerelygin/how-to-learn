@@ -7,4 +7,13 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+.rotation__square-pic {
+  animation: rotation linear 20s infinite;
+}
+
+.rotation__triangle {
+  animation: rotation linear 20s infinite;
 }

@@ -3,7 +3,9 @@
   font-size: 30px;
   font-weight: normal;
   text-align: left;
-
+  text-decoration: none;
+  color: #2f80ed;
+  align-self: flex-start;
 }
 
 .khan__buy-link:hover {
