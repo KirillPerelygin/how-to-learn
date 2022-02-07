@@ -10,10 +10,10 @@
 
 }
 
-.rotation__square-pic {
+.rotation-square-pic {
   animation: rotation linear 20s infinite;
 }
 
-.rotation__triangle {
+.rotation-triangle {
   animation: rotation linear 20s infinite;
 }
